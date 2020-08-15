@@ -47,6 +47,9 @@ form{
   overflow: auto;
   padding-left: 30px;
   border: double 5px rgba(128,0,128,0.7);
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  -o-border-radius: 25px;
   border-radius: 25px;
   position: relative;
   top: 50px;
@@ -60,10 +63,16 @@ textarea{
   border: 1px solid #ccc;
   border-radius: 10px;
   box-sizing: border-box;
+  -webkit-resize: vertical;
+  -moz-resize: vertical;
+  -o-resize: vertical;
   resize: vertical;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
+  font-size: 14pt;
+  font-family: Verdana;
+  color: #262626;
 }
 
 .col-75 textarea{
@@ -90,8 +99,9 @@ label[for=role], label[for=language], label[for=lj], label[for=interpreters], la
   display: block;
   background-color: #ffcc00;
   border: solid 1px #262626;
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
+  -webkit-border-radius: 28px;
+  -moz-border-radius: 28px;
+  -o-border-radius: 28px;
   border-radius: 28px;
   cursor: pointer;
   transition-property: background, border-radius;
@@ -101,5 +111,4 @@ label[for=role], label[for=language], label[for=lj], label[for=interpreters], la
 
 #post:hover{
   background-color: #fff5cc;
-}
 }
