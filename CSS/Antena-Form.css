@@ -89,6 +89,7 @@ label[for=role], label[for=language], label[for=lj], label[for=interpreters], la
   color: #262626;
   margin-top: 25px;
   margin-bottom: -10px;
+  margin-right: 40px;
 }
 
 #post{

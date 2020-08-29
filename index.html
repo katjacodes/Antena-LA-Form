@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Language Justice Needs Assessment</title> 
+  <title>Training Needs Assessment</title> 
   <link rel="stylesheet" href="CSS/Antena-Form.css">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
   <header class="header">
     <div>
       <img src="IMG/AntenaLogo1.png" style="display: inline-block" alt="Antena logo"/>
-      <h1 style="display: inline-block">Language Needs Assessment</h1>
+      <h1 style="display: inline-block">Training Needs Assessment</h1>
     </div>
   </header> 
 
@@ -25,7 +25,16 @@
     <form name="language justice" method="POST" data-netlify="true">
       <div class="row">
         <div class="col-25">
-          <label for="role">What is your role at your organization?</label>
+          <label for="name">What is your name? (optional)</label>
+        </div>
+        <div class="col-75">
+          <textarea id="name" name="name" cols="50" rows="10"></textarea>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-25">
+          <label for="role">What is your role at your organization? (optional)</label>
         </div>
         <div class="col-75">
           <textarea id="role" name="role" cols="50" rows="10"></textarea>
@@ -37,7 +46,7 @@
           <label for="language">In what language(s) do you feel comfortable communicating?</label>
         </div>
         <div class="col-75">
-          <textarea id="language" name="language" cols="50" rows="10"></textarea>
+          <textarea id="language" name="language" cols="50" rows="10" required></textarea>
         </div>
       </div>
 
@@ -46,7 +55,7 @@
           <label for="lj">What is your definition of language justice?</label>
         </div>
         <div class="col-75">
-          <textarea id="lj" name="lj" cols="50" rows="10"></textarea>
+          <textarea id="lj" name="lj" cols="50" rows="10" required></textarea>
         </div>
       </div>
 
@@ -55,7 +64,7 @@
           <label for="interpreters">Who do you usually rely on for interpreting and translation?</label>
         </div>
         <div class="col-75">
-         <textarea id="interpreters" name="interpreters" cols="50" rows="10"></textarea>
+         <textarea id="interpreters" name="interpreters" cols="50" rows="10" required></textarea>
         </div>
       </div>
 
@@ -64,7 +73,7 @@
           <label for="communication">What are the most challenging aspects of your work with regard to cross-language communication?</label>
         </div>
         <div class="col-75">
-        <textarea id="communication" name="communication" cols="50" rows="10"></textarea>
+        <textarea id="communication" name="communication" cols="50" rows="10" required></textarea>
         </div>
       </div>
 
@@ -73,7 +82,7 @@
           <label for="ideas">Do you have any ideas how cross-language communication could be improved for clients and staff?</label>
         </div>
         <div class="col-75">
-        <textarea id="ideas" name="ideas" cols="50" rows="10"></textarea>
+        <textarea id="ideas" name="ideas" cols="50" rows="10" required></textarea>
         </div>
       </div>
 
