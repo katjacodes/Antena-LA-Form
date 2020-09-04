@@ -80,7 +80,7 @@ textarea{
   height: 10em;
 }
 
-label[for=role], label[for=language], label[for=lj], label[for=interpreters], label[for=communication], label[for=ideas]{
+label[for=name], label[for=role], label[for=language], label[for=lj], label[for=interpreters], label[for=communication], label[for=ideas]{
   padding: 12px 12px 12px 0;
   display: inline-block;
   font-family: Montserrat;
